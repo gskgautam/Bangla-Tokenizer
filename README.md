@@ -13,10 +13,10 @@ We utilize the following datasets in our experiments:
 
 We explore several popular tokenization methods, listed below with their original sources:
 
-- **BPE (Byte Pair Encoding)** — [Sennrich et al., 2016](https://aclanthology.org/P16-1162)
-- **Unigram Language Model** — [Kudo, 2018](https://aclanthology.org/D18-2012)
-- **WordPiece** — [Wu et al., 2016](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/37842.pdf)
-- **Character-Level Tokenization** — [Ling et al., 2015](https://aclanthology.org/P15-1162)
+- **BPE (Byte Pair Encoding)** — [Sennrich et al., 2016]([https://aclanthology.org/P16-1162](https://arxiv.org/abs/1508.07909))
+- **Unigram Language Model** — [Kudo, 2018]([https://aclanthology.org/D18-2012](https://aclanthology.org/P18-1007/))
+- **WordPiece** — [Wu et al., 2016](https://arxiv.org/abs/1609.08144)
+- **Character-Level Tokenization** — [Ling et al., 2015]([https://aclanthology.org/P15-1162](https://aclanthology.org/D15-1176/))
 
 We used the implementations provided by their respective authors or libraries. Readers are encouraged to refer to the original papers and official repositories for details.
 
