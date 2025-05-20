@@ -107,14 +107,14 @@ def calculate_extrinsic_metrics(model, features, pad_token_id, fertility, batch_
         'computational_cost_per_word': final_C_word
     }
 
-base_path = '/kaggle/input/bt-verified/BT_Verified/Unigram'
+base_path = 'Path'
 datasets = ['Tense', 'Number_Noun', 'Number_Pronoun']
 splits = ['train', 'test', 'dev']
-csv_file_path = "bloomz-560m_Unigram_results.csv"
+csv_file_path = "Path"
 results = []
 
 for dataset in datasets:
-    print(f"\n🔎 Processing dataset: {dataset}")
+    print(f" Processing dataset: {dataset}")
     for split in splits:
         print(f"Running split: {split}")
         base = os.path.join(base_path, dataset)
