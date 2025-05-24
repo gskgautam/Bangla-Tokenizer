@@ -41,10 +41,5 @@ The following categories of models were used in our evaluation:
 - **`Evaluation.py`**: Contains all scripts and metrics used for evaluating tokenizers and models.
 - **`BanglaTokenizer.py`**: Implements our proposed Bangla-specific tokenizer.
 
-## 📄 Citation
-
-If you use this repository or the proposed tokenizer in your work, please cite the original papers for each tokenizer and language model accordingly.
-
----
-
-For questions or feedback, please raise an issue or contact the maintainers.
+🖥️ Note on Performance Variability:
+Evaluation results may vary by up to ±10% depending on your hardware configuration, especially GPU type, memory bandwidth, and compute environment. This margin reflects differences in numerical precision, runtime optimizations, and stability of training dynamics during task vector extraction and calibration.
